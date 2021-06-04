@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Интернет-магазин</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-</head> 
+</head>
+
 <body>
     <header>
         <div class="logo">E-shop</div>
-        <button class="btn-cart" type="button">Корзина</button>
+        <div class="wrapper-cart">
+            <button class="btn-cart" type="button">
+                <span>Корзина</span>
+            </button>
+            <div class="cart">
+                <p>Корзина</p>
+                <div class="cart__items-cart">
+
+                    <!-- <div class="cart__item" data-id-product="123">
+                        <div class="cart__item-wrapper-img">
+                            <img src="img/plug.jpg" alt="Заглушка" class="cart__item-img">
+                        </div>
+                        <div class="cart__item-name">Ноутбук</div>
+                        <div class="cart__item-price">
+                            <div class="cart__label-price">Цена (руб.)</div>
+                            <div class="cart__product-price">45600</div>
+                        </div>
+                        <div class="cart__item-quantity">
+                            <div class="cart__control-quantity cart__control-quantity--minus" data-id-product="123">-</div>
+                            <div class="cart__total-quantity">1</div>
+                            <div class="cart__control-quantity cart__control-quantity--plus" data-id-product="123">+</div>
+                        </div>
+                        <button class="cart__delete-cart-product">Удалить</button>
+                    </div> -->
+
+                    
+
+                </div>
+                <div class="cart__total-wrapper">
+                    <div class="cart__total-text">Общая сумма покупки:</div>
+                    <div class="cart__total-price">453433<span>руб.</span></div>
+                </div>
+                <div class="cart__checkout-wrapper">
+                    <button class="cart__checkout-button">Оформить заказ</button>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="products"></div>
+        <div class="products">
+
+            
+        </div>
     </main>
 
     <!--beforestart-->
     <!--<p>-->
-        <!--afterstart-->
-        <!--<span></span>-->
-        <!--beforeend-->
+    <!--afterstart-->
+    <!--<span></span>-->
+    <!--beforeend-->
     <!--</p> -->
     <!--afterend-->
     <script src="js/main.js"></script>
 </body>
+
 </html>
