@@ -237,10 +237,10 @@ class CartProductItem {
             <div class="cart__item-wrapper-img">
                 <img src="img/plug.jpg" alt="Заглушка" class="cart__item-img">
             </div>
-            <div class="cart__item-name">${this.price}</div>
+            <div class="cart__item-name">${this.productName}</div>
             <div class="cart__item-price">
                 <div class="cart__label-price">Цена (руб.)</div>
-                <div class="cart__product-price">${this.productName}</div>
+                <div class="cart__product-price">${this.price}</div>
             </div>
             <div class="cart__item-quantity">
                 <div class="cart__control-quantity cart__control-quantity--minus" data-idproduct="${this.idProduct}">-</div>
